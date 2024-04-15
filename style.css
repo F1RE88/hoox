@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Pacifico&display=swap');
+body{
+    background-color: rgb(0, 2, 15);
+    font-family: "Pacifico", cursive;
+    color: white;
+}
+.icon{
+    border-radius: 15px;
+    margin-top: 6px;
+}
+.title{
+    color: red;
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: "Bungee Spice", sans-serif;
+}
+.title-d{
+    display: inline-flex;
+}
+button{
+    font-family: "Pacifico", cursive;
+}
+.f-b{
+    background-color: rgba(255, 0, 0, 0);
+    border-radius: 100px;
+    height: 30px;
+    width: 50px;
+    color: red;
+    text-align: center;
+    border: 2px rgba(255, 0, 0, 0) solid;
+    font-size: 25px;
+}
+.txt{
+    font-size: 20px;
+}
+html::-webkit-scrollbar{
+    width: 9px;
+}
+html::-webkit-scrollbar-track{
+    background-color: rgb(0, 0, 0);
+}
+html::-webkit-scrollbar-thumb{
+    background-color:  red;
+    border-radius: 100px;
+}
+.bord{
+    height: 400px;
+    width: 260px;
+    border-radius: 30px;
+    border: 5px rgb(255, 0, 0) double;  
+    margin-bottom: 50px;    
+}
+.bord:hover{
+    animation-name: box;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes box{
+    0%{
+        border: 5px rgb(255, 0, 0) double;   
+    }  
+    25%{
+       border: 5px yellow double;
+    }
+    50%{
+        border: 5px green double;  
+    }
+    75%{
+        border: 5px blue double;    
+    }
+    100%{
+        border: 5px rgb(255, 0, 0) double; 
+    }
+}
+.page-1{
+    margin-top: 300px;
+}
+.page-1-title{
+    font-size: 40px;
+}
+.imgs{
+    border-radius: 30px;
+}
+.btn{
+    background-color: transparent;
+    color: green;
+    border: 3px solid green;
+    width: 210px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.btn:hover{
+    animation-name: btn;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes btn{
+    0%{
+        color: white;
+        border: 3px solid green;
+        width: 210px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 10px;
+        background-color: green;
+    }
+    25%{
+        color: white;
+        border: 3px solid green;
+        width: 80px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 10px;
+        background-color: green;
+    }
+    50%{
+        color: white;
+        border: 3px solid green;
+        width: 210px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 10px;
+        background-color: green;
+    }
+    75%{
+        color: white;
+        border: 3px solid green;
+        width: 80px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 10px;
+        background-color: green;
+    }
+    100%{
+        color: white;
+        border: 3px solid green;
+        width: 210px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 10px;
+        background-color: green;
+    }
+}
+.btn1{
+    background-color: transparent;
+    color: green;
+    border: 3px solid green;
+    width: 210px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
