@@ -5,6 +5,9 @@ body{
     font-family: "Pacifico", cursive;
     color: white;
 }
+.row{
+    display: flex;
+}
 .icon{
     border-radius: 15px;
     margin-top: 6px;
