@@ -6,7 +6,7 @@ body{
     color: white;
 }
 .row{
-    display: flex;
+      text-align: center;
 }
 .icon{
     border-radius: 15px;
